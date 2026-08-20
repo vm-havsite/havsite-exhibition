@@ -1,7 +1,7 @@
 // functions/articles/[id].js
 // Cloudflare Pages Function for server-side rendering articles
 
-const WORKER_URL = 'https://firebase.vm002248.workers.dev';
+const WORKER_URL = 'https://firebase-exhibition.vm002248.workers.dev';
 
 export async function onRequest(context) {
   const { params } = context;
